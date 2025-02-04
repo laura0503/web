@@ -1,0 +1,85 @@
+body{
+    margin:10px 10px;
+    padding: 5px 5px;
+}
+header {
+    background-color:rgb(85, 22, 121);
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+article{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+
+}
+footer {
+    background-color: #333;
+    color: rgb(241, 119, 119);
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    font-size: 25px;
+}
+footer a {
+    color: #00aced;
+    margin: 0 10px;
+    text-decoration:dotted;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+video, audio {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+    width: 100%;
+    margin: 30px;
+}
+h2{
+    font-size: 55px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    color: grey;
+}
+.texto{
+    background-color: #3e7913; 
+    padding: 15px; 
+    border-radius: 10px; 
+    width: 70%;
+    margin: 20px auto; 
+    text-align: justify; 
+    font-family: Arial, sans-serif; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+    font-size: 35px;
+}
+.colaforacion{
+    display: inline-block;
+    background: white;
+    padding-right: 20px;
+    font-weight: bold;
+    box-shadow: 20px 0 0 white;
+    margin: 30px 40px;
+}
+
+
+.titulo {
+    position: absolute;
+    top: 5px; /* Mueve el texto hacia arriba para que quede sobre el video */
+    left: 30px; /* Alineado completamente a la izquierda */
+    font-size: 30px;
+    font-weight: bold;
+    color: black; /* Color de texto */
+    padding-left: 5px 15px; /* Un pequeño margen izquierdo */
+    z-index: 10; 
+    top: 88px;
+}
