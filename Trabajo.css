@@ -115,22 +115,13 @@ h3{
 }
 
 ul {
-    list-style-type: none; /* Quita las viñetas por defecto */
-    padding-left: 30px; /* Aumenta la separación entre el punto y el texto */
-    font-size: 18px; /* Tamaño del texto */
-    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 4%;
 }
 ul li {
-    position: relative; /* Asegura que la viñeta se posicione correctamente */
-    padding-left: 25px; /* Espacio a la izquierda para el punto */
-    font-size: 30px;
+    font-size: 2em;
 }
-ul li::before {
-    content: "●"; /* Símbolo del punto */
-    color: green; /* Color verde */
-    font-size: 1.2em; /* Tamaño del punto */
-    position: absolute; /* Permite mover el punto a la izquierda */
-    left: 0px; /* Ajusta la posición del punto */
-    top: 5px; /* Alinea verticalmente el punto */
+
+ul li::marker {
+    color: darkgreen; /* Hace que el punto sea verde automáticamente */
+    font-size: 1.5em; /* Ajusta el tamaño del punto */
 }
-  
