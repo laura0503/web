@@ -19,12 +19,6 @@ header {
     margin: 0 auto;
     
 }
-article{
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
-
-}
 footer {
     background-color: #333;
     color: rgb(241, 119, 119);
@@ -113,7 +107,11 @@ h3{
     margin-left: 10px; /* Asegura alineación a la izquierda */
     text-align: left; /* Asegura alineación del texto */
 }
-
+audio {
+    width: 350px;
+    height: 30px;
+    text-align: center;
+}
 ul {
     margin: 4%;
 }
